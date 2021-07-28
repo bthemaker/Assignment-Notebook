@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var assignments = ["Assignment 1","Assignment 2","Assignment 3","Assignment 4",]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(assignments, id: \.self) { assignment in
+                    Text(assignment)
+                }
+                .onMove(perform: { indices, newOffset in assignments.move(fromOffsets: indices, toOffset: newOffset)
+                })
+                .onDelete(perform: { indexSet in
+                    assignments.remove(atOffsets: indexSet)
+                })
+                
+            }
+            .navigationBarTitle("Assignment Notebook", displayMode: .inline)
+            .navigationBarItems(leading: EditButton())
+        }
     }
 }
 
