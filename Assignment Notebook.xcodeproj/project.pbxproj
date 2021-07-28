@@ -13,7 +13,8 @@
 		4D2F0F0626B1C49B00408E30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F0F0526B1C49B00408E30 /* Preview Assets.xcassets */; };
 		4D2F0F1126B1C49B00408E30 /* Assignment_NotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F0F1026B1C49B00408E30 /* Assignment_NotebookTests.swift */; };
 		4D2F0F1C26B1C49B00408E30 /* Assignment_NotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F0F1B26B1C49B00408E30 /* Assignment_NotebookUITests.swift */; };
-		4D2F0F2C26B1C63E00408E30 /* assignmentsDue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F0F2B26B1C63E00408E30 /* assignmentsDue.swift */; };
+		4D2F0F2E26B1CFE200408E30 /* AssignmentsDue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F0F2D26B1CFE200408E30 /* AssignmentsDue.swift */; };
+		4D2F0F3026B1D8CD00408E30 /* AddAssignmentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F0F2F26B1D8CD00408E30 /* AddAssignmentItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,8 @@
 		4D2F0F1726B1C49B00408E30 /* Assignment NotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment NotebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2F0F1B26B1C49B00408E30 /* Assignment_NotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookUITests.swift; sourceTree = "<group>"; };
 		4D2F0F1D26B1C49B00408E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D2F0F2B26B1C63E00408E30 /* assignmentsDue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignmentsDue.swift; sourceTree = "<group>"; };
+		4D2F0F2D26B1CFE200408E30 /* AssignmentsDue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsDue.swift; sourceTree = "<group>"; };
+		4D2F0F2F26B1D8CD00408E30 /* AddAssignmentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				4D2F0EFE26B1C49B00408E30 /* Assignment_NotebookApp.swift */,
+				4D2F0F2D26B1CFE200408E30 /* AssignmentsDue.swift */,
 				4D2F0F0026B1C49B00408E30 /* ContentView.swift */,
-				4D2F0F2B26B1C63E00408E30 /* assignmentsDue.swift */,
+				4D2F0F2F26B1D8CD00408E30 /* AddAssignmentItem.swift */,
 				4D2F0F0226B1C49B00408E30 /* Assets.xcassets */,
 				4D2F0F0726B1C49B00408E30 /* Info.plist */,
 				4D2F0F0426B1C49B00408E30 /* Preview Content */,
@@ -264,7 +267,8 @@
 			files = (
 				4D2F0F0126B1C49B00408E30 /* ContentView.swift in Sources */,
 				4D2F0EFF26B1C49B00408E30 /* Assignment_NotebookApp.swift in Sources */,
-				4D2F0F2C26B1C63E00408E30 /* assignmentsDue.swift in Sources */,
+				4D2F0F2E26B1CFE200408E30 /* AssignmentsDue.swift in Sources */,
+				4D2F0F3026B1D8CD00408E30 /* AddAssignmentItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
